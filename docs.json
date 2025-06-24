@@ -14,11 +14,11 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Quickstart",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "how-to-start",
+              "save-workflow"
             ]
           },
           {
@@ -28,18 +28,7 @@
               "examples/founder",
               "examples/research",
               "examples/sales",
-              "examples/UI-testing"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "examples/ui-testing"
             ]
           }
         ]
@@ -49,13 +38,18 @@
       "anchors": [
         {
           "anchor": "Community",
-          "href": "https://discord.gg/CHqUqM9s",
+          "href": "https://discord.gg/BcWWRCnap6",
           "icon": "discord"
         },
         {
           "anchor": "Blog",
           "href": "https://medium.com/@itsumesh",
           "icon": "newspaper"
+        },
+        {
+          "anchor": "Career",
+          "href": "https://runable.notion.site/",
+          "icon": "briefcase"
         }
       ]
     }
