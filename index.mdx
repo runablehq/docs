@@ -1,67 +1,73 @@
 ---
-title: Introduction
-description: "Automate Everything. Don't Repeat. Describe, deploy, and schedule workflows with Runable."
+title: "Introduction"
+description: "Runable is a general automation agent capable of automating any digital task a human performs on a computer."
 ---
 
-# Automate Everything. Don't Repeat.
+## What can you do with Runable?
 
-Describe what you want to automate—Runable builds, deploys, and schedules it for you. Connect 2700+ apps, trigger actions from anywhere, and let AI handle the busywork so you can focus on what matters.
-
-<Button href="https://runable.xyz/" variant="primary" size="large">Try Runable Now →</Button>
-
----
-
-## How It Works
-
-1. **Describe** your workflow in plain English
-2. **Connect** your favorite tools (Slack, Notion, Gmail, GitHub, and more)
-3. **Deploy & Schedule**—Runable does the rest
-
----
-
-## Automation Examples
+Literally any online work you don’t want to do. Below are a few examples for reference:
 
 <CardGroup cols={2}>
-  <Card
-    title="Research & Content"
-    icon="book-open"
-    href="/examples/analysis"
-  >
-    Automate research, content creation, and publishing
+  <Card title="Analysis" icon="chart-line" iconType="regular" color="#2997d0" href="/examples/analysis">
+    Get insights into your support channels with Runable
   </Card>
-  <Card
-    title="Team Collaboration"
-    icon="users"
-    href="/examples/founder"
-  >
-    Automate updates, notifications, and team recognition
+  <Card title="Founder" icon="user" iconType="regular" color="#2997d0" href="/examples/founder">
+    Automate daily PR celebrations and team recognition with Runable
   </Card>
-  <Card
-    title="Sales & Outreach"
-    icon="handshake"
-    href="/examples/sales"
-  >
-    Automate lead research, meeting prep, and follow-ups
+  <Card title="Research" icon="brain" iconType="regular" color="#2997d0" href="/examples/sales">
+    Automate stock research and financial analysis with Runable
   </Card>
-  <Card
-    title="Testing & Monitoring"
-    icon="shield-check"
-    href="/examples/ui-testing"
-  >
-    Automate UI testing, system monitoring, and alerts
+  <Card title="Sales" icon="handshake" iconType="regular" color="#2997d0" href="/examples/ui-testing">
+    Automate sales meeting research and preparation with Runable
   </Card>
 </CardGroup>
 
+[Try Runable Now →](https://runable.xyz/)
+
+## How It Works
+
+1. **Human approach** – Ask Runable to do something. It will plan the task and begin working.
+2. **Human feedback** – If anything is needed, Runable will ask you to provide it.
+3. **Repeat** – Repeat the above steps to request follow-up tasks.
+4. **Done** – Save the chat to convert it into a workflow.
+5. **Schedule** – Schedule tasks by telling Runable when to run, in plain English.
+
+## Example
+
+Overall goal : Test if connectors are loading and verify that the “Gmail” connector is available on [runable.com](http://runable.com) every day at 10 AM, then share the status on the Slack channel.
+
+#### Step 1 - Ask Runable to do something
+
+Prompt "go to [runable.com](http://runable.com) and click on connectors and search for 'gmail'"
+
+![Connector Search](https://usercontent.in.prod.clueso.io/138e6e12-51a4-4458-9914-1bc6359a8384/12957a5f-4257-4b83-8e5c-78878dd48996/d43837d0-9a95-499d-80c3-04725c1005e6/images/342d0246-ce1e-47e3-abc4-03e722323038.gif)
+
+#### Step 2 - Repeat asking until all done
+
+Prompt "check if gmail was there or not and share the status on slack #ui-testing channel"
+
+![Status Verification](https://usercontent.in.prod.clueso.io/138e6e12-51a4-4458-9914-1bc6359a8384/12957a5f-4257-4b83-8e5c-78878dd48996/d43837d0-9a95-499d-80c3-04725c1005e6/images/0cb313dc-733a-4347-a1b8-f79f666cfc65.gif)
+
+#### Step 3 - Human Feedback
+
+Agent is asking me to connect my slack
+
+![Slack Authorization](https://usercontent.in.prod.clueso.io/138e6e12-51a4-4458-9914-1bc6359a8384/12957a5f-4257-4b83-8e5c-78878dd48996/d43837d0-9a95-499d-80c3-04725c1005e6/images/5ab39994-006a-47fc-9abb-8ec7dd3c5161.png)
+
+<Tip>
+  Make sure you have the necessary permissions in your Slack workspace to add integrations and send messages to the specified channel.
+</Tip>
+
+#### Step 4 - Confirm Slack Notification
+
+Once connected, confirm that Runable has sent the UI test status directly to your Slack channel.
+
+![Slack Notification](https://usercontent.in.prod.clueso.io/138e6e12-51a4-4458-9914-1bc6359a8384/12957a5f-4257-4b83-8e5c-78878dd48996/d43837d0-9a95-499d-80c3-04725c1005e6/images/d36d7c29-fad6-49a5-8274-1b5b64ea765b.gif)
+
+#### Step 5 - Schedule Slack Workflow
+
+Schedule your workflow by selecting schedule. Fill in the necessary fields and specify when the test should run. That’s it—the workflow will now operate automatically.
+
 ---
 
-## Key Features
-
-- **No-Code, AI-Powered**: Just describe your workflow
-- **2700+ Integrations**: Connect all your favorite apps
-- **Flexible Triggers & Scheduling**: Start workflows anytime, from anywhere
-- **Powerful Data & Coding Tools**: Automate even complex tasks
-- **Be Human. Don't Repeat.**
-
----
-
-<small>Inspired by the official Runable website. [Learn more](https://runable.xyz/)</small>
+Inspired by the official Runable website. [Learn more](https://runable.xyz/)
