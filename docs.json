@@ -7,6 +7,24 @@
     "light": "#2597D0",
     "dark": "#2597D0"
   },
+  "fonts": {
+    "family": "idgrotesk",
+    "weight": 400,
+    "source": "https://res.cloudinary.com/drwsrzau7/raw/upload/v1750848838/gxin36xwlocrctnwwbqx.woff2",
+    "format": "woff2",
+    "heading": {
+      "family": "idgrotesk",
+      "weight": 600,
+      "source": "https://res.cloudinary.com/drwsrzau7/raw/upload/v1750849012/elrykx2igqa3ne0gupoq.woff2",
+      "format": "woff2"
+    },
+    "body": {
+      "family": "idgrotesk",
+      "weight": 400,
+      "source": "https://res.cloudinary.com/drwsrzau7/raw/upload/v1750848838/gxin36xwlocrctnwwbqx.woff2",
+      "format": "woff2"
+    }
+  },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
