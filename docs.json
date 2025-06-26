@@ -36,6 +36,7 @@
             "pages": [
               "index",
               "save-login",
+              "save-connector",
               "save-workflow"
             ]
           },
