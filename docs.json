@@ -35,7 +35,6 @@
             "group": "Quickstart",
             "pages": [
               "index",
-              "save-logins",
               "save-workflow"
             ]
           },
