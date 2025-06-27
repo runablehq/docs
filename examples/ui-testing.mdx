@@ -8,74 +8,41 @@ icon: 'code'
 
 This example demonstrates how to set up automated UI testing workflows using Runable. You'll learn how to:
 
-- Check connector availability and status
-- Send automated notifications to Slack
-- Set up scheduled testing workflows
-- Monitor UI functionality automatically
-- Integrate testing with team communication
+- Test if connectors are loading
+- verify that the “Gmail” connector is available on [runable.com](http://runable.com)
+- share the status on the Slack channel
+- Schedule it daily at 10am
 
-## Step 1 - Open Runable and Access Connectors
+#### Step 1 - Ask Runable to do something
 
-Open Runable and access the Connectors page. In the search bar, enter "gmail" to locate the Gmail connector.
+Prompt "go to [runable.com](http://runable.com) and click on connectors and search for 'gmail'"
 
 ![Connector Search](https://usercontent.in.prod.clueso.io/138e6e12-51a4-4458-9914-1bc6359a8384/12957a5f-4257-4b83-8e5c-78878dd48996/d43837d0-9a95-499d-80c3-04725c1005e6/images/342d0246-ce1e-47e3-abc4-03e722323038.gif)
 
-This GIF shows how to navigate to the Connectors page and search for "gmail," demonstrating the exact interface interactions to find the connector.
+#### Step 2 - Repeat asking until all done
 
-
-## Step 2 - Verify Gmail Connector Status
-
-Verify that Gmail appears in the search results. Prompt Runable to check whether Gmail is available, then instruct it to share the status in your Slack channel **#ui-testing**.
+Prompt "check if gmail was there or not and share the status on slack #ui-testing channel"
 
 ![Status Verification](https://usercontent.in.prod.clueso.io/138e6e12-51a4-4458-9914-1bc6359a8384/12957a5f-4257-4b83-8e5c-78878dd48996/d43837d0-9a95-499d-80c3-04725c1005e6/images/0cb313dc-733a-4347-a1b8-f79f666cfc65.gif)
 
-This GIF illustrates the process of verifying the Gmail connector's presence and status, and initiating the command to share results to your designated Slack channel.
+#### Step 3 - Human Feedback
 
-## Step 3 - Connect Slack Integration
-
-If Slack integration isn't connected yet, authorize Runable to connect with your Slack account. Click **Continue** to proceed through the authentication.
+Agent is asking me to connect my slack
 
 ![Slack Authorization](https://usercontent.in.prod.clueso.io/138e6e12-51a4-4458-9914-1bc6359a8384/12957a5f-4257-4b83-8e5c-78878dd48996/d43837d0-9a95-499d-80c3-04725c1005e6/images/5ab39994-006a-47fc-9abb-8ec7dd3c5161.png)
 
 <Tip>
-
-Make sure you have the necessary permissions in your Slack workspace to add integrations and send messages to the specified channel.
-
+  Make sure you have the necessary permissions in your Slack workspace to add integrations and send messages to the specified channel.
 </Tip>
 
-## Step 4 - Confirm Slack Notification
+#### Step 4 - Confirm Slack Notification
 
 Once connected, confirm that Runable has sent the UI test status directly to your Slack channel.
 
 ![Slack Notification](https://usercontent.in.prod.clueso.io/138e6e12-51a4-4458-9914-1bc6359a8384/12957a5f-4257-4b83-8e5c-78878dd48996/d43837d0-9a95-499d-80c3-04725c1005e6/images/d36d7c29-fad6-49a5-8274-1b5b64ea765b.gif)
 
-This GIF demonstrates confirming that the Slack integration works by showing the real-time delivery of a UI test status notification in your channel.
+#### Step 5 - Schedule Slack Workflow
 
+Schedule your workflow by selecting schedule. Fill in the necessary fields and specify when the test should run. That’s it—the workflow will now operate automatically.
 
-## Step 5 - Save Your Testing Workflow
-
-Save your testing workflow. Go to the workflow page to review or modify the setup.
-
-<Tip>
-
-This step ensures your workflow is preserved and can be reused or modified as needed for different testing scenarios.
-
-</Tip>
-
-## Step 6 - Schedule Your Workflow
-
-Schedule your workflow by selecting **schedule**. Fill in the necessary fields and specify when the test should run. That's it—the workflow will now operate automatically.
-
-![Workflow Scheduling](https://usercontent.in.prod.clueso.io/138e6e12-51a4-4458-9914-1bc6359a8384/12957a5f-4257-4b83-8e5c-78878dd48996/d43837d0-9a95-499d-80c3-04725c1005e6/images/62ebc64c-2636-483f-a236-01bf59ba0b3a.gif)
-
-This GIF animates the steps to schedule your workflow, covering how to select timing options and finalize the setup to enable automated operation.
-
-## Summary
-
-You've successfully set up an automated UI testing workflow that monitors connector functionality and sends status updates to your Slack channel. This workflow will run automatically according to your schedule, keeping your team informed about system status.
-
-<Tip>
-
-Consider setting up multiple testing workflows for different connectors or services to ensure comprehensive monitoring of your entire system.
-
-</Tip>
+![Schedule Workflow](/images/ScreenRecording2025-06-26at1.25.42AM-ezgif.com-optimize.gif)
