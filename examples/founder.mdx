@@ -9,93 +9,50 @@ icon: 'user'
 This example use case demonstrates how to automate team recognition by creating daily PR celebration workflows. You'll learn how to:
 
 - Fetch merged pull requests from GitHub
-- Generate congratulatory messages
+- Analyse all the requests
 - Post updates to Slack channels
-- Automate the entire recognition process
-- Schedule daily team celebrations
+- Schedule it
 
-## Step 1 - Open Runable
+## Step 1 - Enter the PR Request Prompt
 
-Open Runable to begin automating your daily pull request workflow. The animated GIF below visually demonstrates the exact steps to get started—watch the animation to see how to access and prepare the workflow.
-
-![Open Runable](https://usercontent.in.prod.clueso.io/138e6e12-51a4-4458-9914-1bc6359a8384/c3cb82fd-0365-4800-9910-5cac56195fbc/5639abb2-df44-4f97-9ce0-8126ccdc3dec/images/86015ff1-db2a-4c11-8a53-f161db2e2caa.gif)
-
-## Step 2 - Enter the PR Request Prompt
-
-Enter the prompt: "get me the new PRs merged approved yesterday in the main branch in runableHQ repo." The GIF here clearly shows how to input your request and where to look on screen, so be sure to watch the animation for a step-by-step guide.
+Enter the prompt: "get me the new PRs merged approved yesterday in the main branch in runableHQ repo." 
 
 ![PR Request Prompt](https://usercontent.in.prod.clueso.io/138e6e12-51a4-4458-9914-1bc6359a8384/c3cb82fd-0365-4800-9910-5cac56195fbc/5639abb2-df44-4f97-9ce0-8126ccdc3dec/images/36e3d3fe-f104-4c0a-99bb-a5555d9abfe0.gif)
 
-## Step 3 - Verify GitHub Connection
+
+## Step 2 - Verify GitHub Connection and Collect Merged PRs
 
 Runable checks for a connection to your GitHub account. Ensure your GitHub is linked so PR data can be pulled accurately.
 
-<Tip>
-
-Make sure your GitHub integration is properly configured before proceeding. This ensures Runable can access your repository data.
-
-</Tip>
-
-## Step 4 - Collect Merged PRs
-
-The system collects yesterday's merged PRs, with reviewer details, and saves them in a markdown file for tracking. The animated GIF demonstrates this retrieval and saving process in real time—watch it to fully understand how these results are gathered and recorded.
-
-![PR Collection Process](https://usercontent.in.prod.clueso.io/138e6e12-51a4-4458-9914-1bc6359a8384/c3cb82fd-0365-4800-9910-5cac56195fbc/5639abb2-df44-4f97-9ce0-8126ccdc3dec/images/5f1ea2a8-3118-491b-9378-f68bda50bb46.gif)
+The system collects yesterday's merged PRs, with reviewer details, and saves them in a markdown file for tracking. 
 
 ![PR Data Saved](https://usercontent.in.prod.clueso.io/138e6e12-51a4-4458-9914-1bc6359a8384/c3cb82fd-0365-4800-9910-5cac56195fbc/5639abb2-df44-4f97-9ce0-8126ccdc3dec/images/5b18051c-aebd-4f08-b11c-c3e9fbe7333e.png)
 
-## Step 5 - Compose Congratulatory Message
 
-Have the agent compose a congratulatory message by giving the prompt: "write a small congrats message in the 'all-runable' slack channel mentioning the authors in bold and PR links." The following animation shows this step—watch the GIF for a clear demonstration on how to create an engaging Slack message.
+## Step 3 - Compose and Send Congratulatory Message to Slack
 
-![Compose Message](https://usercontent.in.prod.clueso.io/138e6e12-51a4-4458-9914-1bc6359a8384/c3cb82fd-0365-4800-9910-5cac56195fbc/5639abb2-df44-4f97-9ce0-8126ccdc3dec/images/2ed71ed5-03d8-43e4-a928-188bfc735193.gif)
+prompt: "write a small congrats message in the 'all-runable' slack channel mentioning the authors in bold and PR links."
 
-## Step 6 - Send Message to Slack
-
-Runable connects to your Slack workspace and sends your crafted message to the designated channel, recognizing contributors and linking PRs. The animated GIF helps you see exactly how the message is sent—view the animation for a detailed look at how contributors are celebrated.
+Runable connects to your Slack workspace and sends your crafted message to the designated channel, recognizing contributors and linking PRs. 
 
 ![Slack Connection](https://usercontent.in.prod.clueso.io/138e6e12-51a4-4458-9914-1bc6359a8384/c3cb82fd-0365-4800-9910-5cac56195fbc/5639abb2-df44-4f97-9ce0-8126ccdc3dec/images/f19426b9-dc32-4e16-8538-dcd3fa083d0d.gif)
 
-![Message Sent](https://usercontent.in.prod.clueso.io/138e6e12-51a4-4458-9914-1bc6359a8384/c3cb82fd-0365-4800-9910-5cac56195fbc/5639abb2-df44-4f97-9ce0-8126ccdc3dec/images/dac2b856-a16d-4506-b2b6-39022c92ffc8.png)
 
-![Slack Confirmation](https://usercontent.in.prod.clueso.io/138e6e12-51a4-4458-9914-1bc6359a8384/c3cb82fd-0365-4800-9910-5cac56195fbc/5639abb2-df44-4f97-9ce0-8126ccdc3dec/images/78b8bb28-83d2-4231-b18b-2f15cd83f32b.png)
+## Step 4 - Verify Message in Slack
 
-## Step 7 - Verify Message in Slack
-
-Check the Slack channel to verify your message has posted correctly, so everyone's achievements are visible. The GIF below demonstrates how the message appears in Slack—watching it will help you quickly confirm your results.
+Check the Slack channel to verify your message has posted correctly, so everyone's achievements are visible. 
 
 ![Message in Slack](https://usercontent.in.prod.clueso.io/138e6e12-51a4-4458-9914-1bc6359a8384/c3cb82fd-0365-4800-9910-5cac56195fbc/5639abb2-df44-4f97-9ce0-8126ccdc3dec/images/12d27caa-dacc-48e7-8d7b-256960a7dcbf.gif)
 
-![Slack Channel View](https://usercontent.in.prod.clueso.io/138e6e12-51a4-4458-9914-1bc6359a8384/c3cb82fd-0365-4800-9910-5cac56195fbc/5639abb2-df44-4f97-9ce0-8126ccdc3dec/images/f358a5c0-6a51-4d60-be61-afe354f6d218.png)
 
-## Step 8 - Save Workflow
+## Step 5 - Save and Schedule Workflow
 
 Save the entire process as a workflow and go to the workflow page for easy future management. The animation here illustrates saving and organizing your automated workflow in Runable—be sure to watch how to finalize this key step.
 
 ![Save Workflow](https://usercontent.in.prod.clueso.io/138e6e12-51a4-4458-9914-1bc6359a8384/c3cb82fd-0365-4800-9910-5cac56195fbc/5639abb2-df44-4f97-9ce0-8126ccdc3dec/images/49265fd0-3894-41bb-8c9f-027182949bc9.gif)
 
-![Workflow Page](https://usercontent.in.prod.clueso.io/138e6e12-51a4-4458-9914-1bc6359a8384/c3cb82fd-0365-4800-9910-5cac56195fbc/5639abb2-df44-4f97-9ce0-8126ccdc3dec/images/782a7b95-9990-4d2e-ba9e-7b1162a66bf8.png)
-
-## Step 9 - Configure Slack Channel
-
-Specify the exact Slack channel for notifications, so your messages always reach the right audience.
-
-![Channel Configuration](https://usercontent.in.prod.clueso.io/138e6e12-51a4-4458-9914-1bc6359a8384/c3cb82fd-0365-4800-9910-5cac56195fbc/5639abb2-df44-4f97-9ce0-8126ccdc3dec/images/cd3d2910-da21-4d78-9ca1-2d9f356c5d60.png)
-
-![Channel Selection](https://usercontent.in.prod.clueso.io/138e6e12-51a4-4458-9914-1bc6359a8384/c3cb82fd-0365-4800-9910-5cac56195fbc/5639abb2-df44-4f97-9ce0-8126ccdc3dec/images/fee81f36-ce5a-42af-9ffd-a67e62e488e3.png)
-
-## Step 10 - Schedule Daily Execution
-
-Schedule your workflow to run every day at 6pm. The animated GIF below demonstrates how to set this schedule—watch closely to ensure daily, timely updates for your team.
+<Tip>
+Schedule your workflow to run every day at 6pm.
+</Tip>
 
 ![Schedule Workflow](https://usercontent.in.prod.clueso.io/138e6e12-51a4-4458-9914-1bc6359a8384/c3cb82fd-0365-4800-9910-5cac56195fbc/5639abb2-df44-4f97-9ce0-8126ccdc3dec/images/810d2807-9a77-48bf-acac-958def6736ee.gif)
-
-## Summary
-
-You've now automated your team's daily PR celebrations—helping keep everyone engaged and recognized for their hard work!
-
-<Tip>
-
-For the most important steps, the included GIFs visually walk you through each action. Watch each animation for clarity and to ensure you don't miss any detail.
-
-</Tip>
